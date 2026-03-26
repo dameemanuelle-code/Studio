@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background: #050505;
+    color: #e8d8b0;
+    font-family: 'Lora', serif;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: url('images/bg-luxury.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0,0,0,0.5), rgba(0,0,0,0.9));
+}
+
+.hero-content {
+    text-align: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+/* SECTIONS */
+.container {
+    width: 75%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+}
+
+/* RITUAL */
+.ritual {
+    background: #0a0a0a;
+    text-align: center;
+}
+
+/* EXPERIENCE */
+.experience {
+    background: linear-gradient(180deg, #0a0a0a, #111);
+}
+
+.experience-block {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* JOURNEY */
+.journey {
+    background: #0a0a0a;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #a67c52;
+}
+
+/* GALLERY */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.img {
+    height: 250px;
+    background: #222;
+    transition: 0.3s;
+}
+
+.img:hover {
+    transform: scale(1.03);
+}
+
+/* FRAMEWORK */
+.framework {
+    background: #0a0a0a;
+    text-align: center;
+}
+
+.highlight {
+    margin-top: 20px;
+    color: #d4af37;
+}
+
+/* CTA */
+.cta {
+    background: black;
+    text-align: center;
+}
+
+.btn {
+    padding: 14px 30px;
+    background: linear-gradient(90deg, #a67c52, #d4af37);
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+}
