@@ -92,7 +92,7 @@ section {
   inset: 0;
   background:
     linear-gradient(180deg, rgba(0,0,0,0.32), rgba(0,0,0,0.62)),
-    url("images/logo-cuir-fantaisies.png") center center / 420px auto no-repeat;
+    url("images/logo2.png") center center / 420px auto no-repeat;
   opacity: 0.12;
   pointer-events: none;
 }
