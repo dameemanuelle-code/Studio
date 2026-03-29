@@ -135,18 +135,35 @@ footer {
     padding: 20px;
     background: #000;
 }
-.logo-hero {
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 110px;
-    opacity: 0.85;
-    filter: drop-shadow(0 0 10px rgba(212,175,55,0.4));
-    transition: 0.4s ease;
+.hero-content {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.logo-hero:hover {
-    opacity: 1;
-    transform: translateX(-50%) scale(1.05);
+.logo-hero {
+    display: block;
+    width: 90px;
+    max-width: 18vw;
+    margin: 0 auto 22px auto;
+    opacity: 0.92;
+    object-fit: contain;
+    filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.55));
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.hero p {
+    margin-top: 22px;
+    font-size: 1.2rem;
+    color: #e8d8b0;
 }
