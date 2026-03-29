@@ -135,3 +135,18 @@ footer {
     padding: 20px;
     background: #000;
 }
+.logo-hero {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+    opacity: 0.85;
+    filter: drop-shadow(0 0 10px rgba(212,175,55,0.4));
+    transition: 0.4s ease;
+}
+
+.logo-hero:hover {
+    opacity: 1;
+    transform: translateX(-50%) scale(1.05);
+}
